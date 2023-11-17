@@ -50,12 +50,12 @@ int main() {
     cout << "Enter second number: ";
     cin >> d;
 
-    cin.ignore();  // Consume newline character
+    cin.ignore(); 
 
     cout << "Specify operation (1 for addition, 2 for subtraction, 3 for multiplication, 4 for division): ";
     cin >> e;
 
-    cin.ignore();  // Consume newline character
+    cin.ignore(); 
 
     if (e == 1) {
         object.add(c, d);
@@ -69,7 +69,7 @@ int main() {
         cout << "Error: Invalid operation." << endl;
     }
 
-    system("pause");  // Pause execution before exiting
+    system("pause");  
 
     return 0;
 }
