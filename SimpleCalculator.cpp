@@ -69,7 +69,5 @@ int main() {
         cout << "Error: Invalid operation." << endl;
     }
 
-    system("pause");  
-
     return 0;
 }
